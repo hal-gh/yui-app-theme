@@ -3,10 +3,10 @@
    color scheme with our own. In the real world, you'd probably
    want to do more complex operations. */
 
-#hd { background-color:#187a7a; }
-.block .hd { background-color:#187a7a; color:#fff; border-bottom:10px solid #262626; }
-.block .bd h2 { color:#187a7a; }
-.block .bd h3 { color:#187a7a; }
-.spaces .hd { background-color:transparent; }
-.spaces .hd ul li { background-color:#187a7a; }
-a { color:#187a7a; }
+.yui-skin-yuiapp #hd { background-color:#187a7a; }
+.yui-skin-yuiapp .block .hd { background-color:#187a7a; color:#fff; border-bottom:10px solid #262626; }
+.yui-skin-yuiapp .block .bd h2 { color:#187a7a; }
+.yui-skin-yuiapp .block .bd h3 { color:#187a7a; }
+.yui-skin-yuiapp .spaces .hd { background-color:transparent; }
+.yui-skin-yuiapp .spaces .hd ul li { background-color:#187a7a; }
+.yui-skin-yuiapp a { color:#187a7a; }
