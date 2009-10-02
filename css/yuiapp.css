@@ -3,105 +3,25 @@ html, body.yui-skin-yuiapp { background-color:#f0f0ee; color:#222; }
 /* Make the page full bleed */
 .yui-skin-yuiapp #doc3 { margin:0; }
 
-/* Header */
+/* *** Header *** */
 .yui-skin-yuiapp #hd { padding:1.2em 1.5em 0 1.5em; background-color:#7a1818; }
 .yui-skin-yuiapp h1 { font-size:230%; color:#fff; }
 
-.yui-skin-yuiapp #navigation { margin-top:1.5em; background-color:#262626; height:1%; }
-.yui-skin-yuiapp #navigation li { float:left; display:inline; }
-.yui-skin-yuiapp #navigation li a { display:block; color:#fff; text-decoration:none; }
-.yui-skin-yuiapp #navigation li a:hover { text-decoration:underline; }
+.yui-skin-yuiapp #hd .yui-g li a { display:block; }
 
-.yui-skin-yuiapp #primary-navigation li a { font-size:116%; padding:0.4em 1em; }
-.yui-skin-yuiapp #primary-navigation li.active a { background-color:#f0f0ee; color:#000; }
+.yui-skin-yuiapp #hd .yui-g { margin-top:1.5em; background-color:#064780; height:1%; }
 
-.yui-skin-yuiapp #user-navigation { float:right; }
-.yui-skin-yuiapp #user-navigation li a { font-size:93%; padding:0.5em 1em; }
+.yui-skin-yuiapp #hd .yui-g li { float:left; display:inline; }
+.yui-skin-yuiapp #hd .yui-g li a { display:block; color:#fff; text-decoration:none; }
+.yui-skin-yuiapp #hd .yui-g li a:hover { text-decoration:underline; }
 
-/* Body */
-.yui-skin-yuiapp #bd { padding:1.5em; }
-.yui-skin-yuiapp h2 { font-size:153.9%; margin-bottom:0.5em; }
-.yui-skin-yuiapp h3 { font-size:153.9%; margin-bottom:0.5em; }
+.yui-skin-yuiapp #hd .yui-g .yui-u.first li a { font-size:116%; padding:0.4em 1em; }
+.yui-skin-yuiapp #hd .yui-g .yui-u.first li.active a { background-color:#f0f0ee; color:#000; }
 
-/* Basic block */
-.yui-skin-yuiapp .block { margin-bottom:1.5em; }
-.yui-skin-yuiapp .block .hd { background-color:#7a1818; padding:0.7em 1em; color:#fff; border-bottom:10px solid #262626; }
-.yui-skin-yuiapp .block .hd h2, .yui-skin-yuiapp .block .hd h3 { font-size:100%; margin-bottom:0; }
-.yui-skin-yuiapp .block .bd { padding:1em; background-color:#fff; }
-.yui-skin-yuiapp .block .bd h2 { color:#7a1818; }
-.yui-skin-yuiapp .block .bd h3 { color:#7a1818; }
+.yui-skin-yuiapp #hd .yui-g #rhs-navigation.yui-u ul { float:right; }
+.yui-skin-yuiapp #hd .yui-g #rhs-navigation.yui-u li a { font-size:93%; padding:0.5em 1em; }
 
-/* Extend block with tabs */
-.yui-skin-yuiapp .tabs .hd { padding:0; }
-.yui-skin-yuiapp .tabs .hd ul { height:1%; }
-.yui-skin-yuiapp .tabs .hd ul li { float:left; }
-.yui-skin-yuiapp .tabs .hd ul li a { display:block; color:#fff; text-decoration:none; padding:0.5em 1em; }
-.yui-skin-yuiapp .tabs .hd ul li a:hover { background-color:#470E0E; }
-.yui-skin-yuiapp .tabs .hd ul li.active a { background-color:#262626 !important; color:#fff; text-decoration:none; } /* important! fixes IE cascade issue */
-.yui-skin-yuiapp .tabs .hd h2, .yui-skin-yuiapp .tabs .hd h3 { position:absolute; margin-left:-5000px; } /* Hidden SEO Header if needed */
-
-/* Extend tab block with spaced tabs */
-.yui-skin-yuiapp .spaces .hd { background-color:transparent; }
-.yui-skin-yuiapp .spaces .hd ul li { background-color:#7a1818; margin-right:0.1em; }
-
-/* Extend block and header to have rounded corners */
-.yui-skin-yuiapp .rounded .hd,
-.yui-skin-yuiapp .rounded .hd ul li,
-.yui-skin-yuiapp .rounded .hd ul li a,
-.yui-skin-yuiapp .rounded #navigation,
-.yui-skin-yuiapp .rounded #navigation ul li,
-.yui-skin-yuiapp .rounded #navigation ul li a {
-    -moz-border-radius-topright:7px;
-    -moz-border-radius-topleft:7px;
-    -webkit-border-top-right-radius:7px;
-    -webkit-border-top-left-radius:7px;
-}
-
-/* Style the horizontal rules inside .block */
-.yui-skin-yuiapp .block hr { background-color:#f0f0ee; color:#f0f0ee; height:1px; border:0; }
-
-/* Tables */
-.yui-skin-yuiapp table { width:100%; margin-bottom:2em; }
-.yui-skin-yuiapp table td { padding:0.5em; }
-.yui-skin-yuiapp table thead { background-color:#262626; color:#fff; font-weight:bold; }
-.yui-skin-yuiapp table thead a { text-decoration:none; color:#fff; }
-.yui-skin-yuiapp table thead a:hover { text-decoration:underline; }
-.yui-skin-yuiapp table tbody a { text-decoration:underline; }
-
-/* Pager control*/
-.yui-skin-yuiapp ul.pager { text-align:right; }
-.yui-skin-yuiapp ul.pager li { display:inline; }
-.yui-skin-yuiapp ul.pager li a { padding:0.1em 0.3em; margin-right:0.3em; border:1px solid #000; text-decoration:none; color:#000; }
-.yui-skin-yuiapp ul.pager li.active a, .yui-skin-yuiapp ul.pager li a:hover { background-color:#000; color:#fff; }
-
-/* Forms */
-.yui-skin-yuiapp form label { font-weight:bold; }
-.yui-skin-yuiapp form label span { font-weight:normal; color:#f00; font-size:85%; }
-.yui-skin-yuiapp form span.info { font-style:italic; color:#aaa; font-size:85%; }
-.yui-skin-yuiapp form .text { display:block; width:99%; border:1px solid #aaa; padding:0.3em; }
-.yui-skin-yuiapp form .column { width:48%; }
-.yui-skin-yuiapp form .left { float:left; }
-.yui-skin-yuiapp form .right { float:right; }
-
-/* Messages */
-.yui-skin-yuiapp .alert { padding:0.5em; text-align:center; }
-.yui-skin-yuiapp .error { border:2px solid #fbb; background-color:#fdd; }
-.yui-skin-yuiapp .warning { border:2px solid #fffaaa; background-color:#ffc; }
-.yui-skin-yuiapp .notice { border:2px solid #1fdf00; background-color:#bbffb6; }
-
-/* Lists */
-.yui-skin-yuiapp ol.list, ul.list, .yui-skin-yuiapp dl.list { margin-left:2em; margin-bottom:1em; }
-.yui-skin-yuiapp ol.list li { list-style:decimal outside; }
-.yui-skin-yuiapp ul.list li { list-style:disc outside; }
-.yui-skin-yuiapp dl.list dd { margin-left:1em; }
-
-.yui-skin-yuiapp ul.biglist { margin-bottom:1em; }
-.yui-skin-yuiapp ul.biglist li { margin-top:-1px; border:1px solid #f0f0ee; border-width:1px 0 1px 0; }
-.yui-skin-yuiapp ul.biglist li a { display:block; padding:0.5em 0; text-decoration:none; color:#000; }
-.yui-skin-yuiapp ul.biglist li a:hover { text-decoration:underline; }
-
-/* Footer */
-.yui-skin-yuiapp #ft { text-align:center; font-size:85%; padding:0.5em 1em; color:#262626; }
+/* *** Body *** */
 
 /* Generics */
 .yui-skin-yuiapp p { margin-bottom:1em; }
@@ -113,7 +33,101 @@ html, body.yui-skin-yuiapp { background-color:#f0f0ee; color:#222; }
 .yui-skin-yuiapp .small { font-size:85%; }
 .yui-skin-yuiapp .gray { color:#999; }
 .yui-skin-yuiapp .highlight { background-color:#ffffcc; }
-.yui-skin-yuiapp .clear { clear:both; }
+
 .yui-skin-yuiapp .text-left { text-align:left; }
 .yui-skin-yuiapp .text-right { text-align:right; }
 .yui-skin-yuiapp .text-center { text-align:center; }
+
+.yui-skin-yuiapp #bd ol,
+.yui-skin-yuiapp #bd ul,
+.yui-skin-yuiapp #bd dl { margin-left:1em; margin-bottom:1em; padding-left: 0.5em; }
+
+.yui-skin-yuiapp #bd ol li { list-style:decimal outside; }
+.yui-skin-yuiapp #bd ul li { list-style:disc outside; }
+.yui-skin-yuiapp #bd dl dd { margin-left:1em; }
+
+.yui-skin-yuiapp #bd { padding:1.5em; }
+.yui-skin-yuiapp #bd h1 { color:#f00; }  /* Warning - only one h1 allowed in page! */
+.yui-skin-yuiapp #bd h2 { font-size:153.9%; margin-bottom:0.5em; }
+.yui-skin-yuiapp #bd h3 { color:#fff; font-size:100%; background-color:#A0C2DE; padding:0.7em 1em; border-bottom:5px solid #064780; }
+.yui-skin-yuiapp #bd h4 { color: #967E59; font-size:146.5%; margin-bottom:0.5em; }
+.yui-skin-yuiapp #bd h5 { color: #967E59; font-size:138.5%; margin-bottom:0.5em; }
+
+/* Basic block */
+.yui-skin-yuiapp #bd .yui-g { padding:1em; background-color:#fff; }
+.yui-skin-yuiapp #bd h2 { color:#222; }
+.yui-skin-yuiapp #bd h3 { color:#222; }
+
+/* Extend block with tabs */
+.yui-skin-yuiapp #bd .yui-g.tabs { padding:0; background-color: #064780; border-bottom:5px solid #A0C2DE; }
+.yui-skin-yuiapp #bd .yui-g.tabs ul { height:1%; margin: 0; }
+.yui-skin-yuiapp #bd .yui-g.tabs ul li { float:left; list-style-type: none;}
+.yui-skin-yuiapp #bd .yui-g.tabs ul li a { display:block; color:#fff; text-decoration:none; padding:0.5em 1em; }
+.yui-skin-yuiapp #bd .yui-g.tabs ul li a:hover { color: #333333; background-color:#CDEFFF; }
+.yui-skin-yuiapp #bd .yui-g.tabs ul li.active a { background-color:#A0C2DE !important; color:#333333; text-decoration:none; } /* important! fixes IE cascade issue */
+.yui-skin-yuiapp #bd .yui-g.tabs h2, 
+.yui-skin-yuiapp #bd .yui-g.tabs h3 { position:absolute; margin-left:-5000px; } /* Hidden SEO Header if needed */
+
+/* Extend tab block with spaced tabs */
+.yui-skin-yuiapp #bd .yui-g.tabs.spaces { background-color:transparent; }
+.yui-skin-yuiapp #bd .yui-g.tabs.spaces ul li { background-color:#064780; margin-right:0.1em; }
+
+/* Extend block and header to have rounded corners */
+.yui-skin-yuiapp.rounded #hd .yui-g,
+.yui-skin-yuiapp.rounded #hd .yui-g ul li,
+.yui-skin-yuiapp.rounded #hd .yui-g ul li a,
+.yui-skin-yuiapp.rounded #bd .yui-g.tabs,
+.yui-skin-yuiapp.rounded #bd .yui-g.tabs ul li,
+.yui-skin-yuiapp.rounded #bd .yui-g.tabs ul li a,
+.yui-skin-yuiapp.rounded #bd h3 {
+    -moz-border-radius-topright:7px;
+    -moz-border-radius-topleft:7px;
+    -webkit-border-top-right-radius:7px;
+    -webkit-border-top-left-radius:7px;
+}
+
+/* Style the horizontal rules inside .block */
+.yui-skin-yuiapp #bd .yui-g hr { background-color:#967E59; color:#967E59; height:1px; border:0; }
+
+/* Tables */
+.yui-skin-yuiapp #bd .yui-g table { width:100%; margin-bottom:2em; }
+.yui-skin-yuiapp #bd .yui-g table td { padding:0.5em; }
+.yui-skin-yuiapp #bd .yui-g table thead { background-color:#685841; color:#fff; font-weight:bold; }
+.yui-skin-yuiapp #bd .yui-g table thead a { text-decoration:none; color:#fff; }
+.yui-skin-yuiapp #bd .yui-g table thead a:hover { text-decoration:underline; }
+.yui-skin-yuiapp #bd .yui-g table tbody a { text-decoration:underline; }
+
+/* Pager control*/
+.yui-skin-yuiapp #bd .yui-g ul.pager { text-align:right; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li { display:inline; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li a { padding:0.1em 0.3em; margin-right:0.3em; border:1px solid #ccc; text-decoration:none; color:#333; }
+
+.yui-skin-yuiapp #bd .yui-g ul.pager li.active a, 
+.yui-skin-yuiapp #bd .yui-g ul.pager li a:hover { background-color:#685841; color:#fff; }
+
+/* Forms */
+.yui-skin-yuiapp #bd form .yui-g p { padding-left: 1em; padding-right: 1em;}
+.yui-skin-yuiapp #bd form .yui-g label { font-weight:bold; }
+.yui-skin-yuiapp #bd form .yui-g label span { font-weight:normal; color:#f00; font-size:85%; }
+.yui-skin-yuiapp #bd form .yui-g span.info { font-style:italic; color:#aaa; font-size:85%; }
+.yui-skin-yuiapp #bd form .yui-g .text { display:block; width:99%; border:1px solid #aaa; padding:0.3em; }
+
+/* Messages */
+.yui-skin-yuiapp #bd .yui-g .alert { padding:0.5em; text-align:center; }
+.yui-skin-yuiapp #bd .yui-g .error { border:2px solid #fbb; background-color:#fdd; }
+.yui-skin-yuiapp #bd .yui-g .warning { border:2px solid #fffaaa; background-color:#ffc; }
+.yui-skin-yuiapp #bd .yui-g .notice { border:2px solid #1fdf00; background-color:#bbffb6; }
+
+/* Lists */
+.yui-skin-yuiapp #bd #sidebar ul { margin-bottom:1em; padding-left: 0; }
+.yui-skin-yuiapp #bd #sidebar ul li { margin-top:-1px; border:1px solid #f0f0ee; border-width:1px 0 1px 0; }
+.yui-skin-yuiapp #bd #sidebar ul li a { display:block; padding:0.5em 0; text-decoration:none; color:#000; }
+.yui-skin-yuiapp #bd #sidebar ul li a:hover { text-decoration:underline; }
+
+/* Footer */
+.yui-skin-yuiapp #ft { text-align:center; font-size:85%; padding:1em; color:#262626; }
+
+
+
+.yui-skin-yuiapp .clear { clear:both; }
+
