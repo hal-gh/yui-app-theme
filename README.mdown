@@ -17,6 +17,14 @@ FEATURES
  * Built on YUI Grids for easy customization and browser compatibility.
  * Lightweight CSS ~10KB
 
+HOW TO USE
+--------
+Always include the YUI grids stylesheet. For example, <link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css">
+Only apply the #hd, #bd and #ft ids to standalone divs.
+Never add padding or margin properties to any of the pre-defined YUI classes, including yui-b, yui-g and yui-u.
+Use the [YUI Grids Builder](http://developer.yahoo.com/yui/grids/builder/) wizard to construct an initial template of your page.  View the yuiapp index.html source to understand how markup should be constructed in the context of YUI Grids.
+Always define padding and margins in units of em, and font-sizes in %.  Use an "Em Calculator" such as [this one](http://riddle.pl/emcalc/) to help with this.
+
 INSTALL
 -------
 

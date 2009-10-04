@@ -1,22 +1,18 @@
 
 /* Generics */
-.yui-skin-yuiapp p { margin-bottom:1em; }
+.yui-skin-yuiapp p { margin:1em 0.62em; }
 .yui-skin-yuiapp strong { font-weight:bold; }
 .yui-skin-yuiapp em { font-style:italic; }
 
 .yui-skin-yuiapp abbr,
-.yui-skin-yuiapp acronym { border-width:0 0 1px; border-style: dotted; cursor:help; }
+.yui-skin-yuiapp acronym { border-width:0 0 1px; border-style: dashed; cursor:help; }
 
 /* Make the page full bleed */
 .yui-skin-yuiapp #doc3 { margin:0; }
 
 /* *** Header *** */
 .yui-skin-yuiapp #hd { padding:1.2em 1.5em 0 1.5em; }
-.yui-skin-yuiapp h1 { font-size:230%; }
-
-.yui-skin-yuiapp #hd .yui-g li a { display:block; }
-
-.yui-skin-yuiapp #hd .yui-g { margin-top:1.5em; height:1%; }
+.yui-skin-yuiapp #hd h1 { font-size:230%; margin-bottom: 0.7em}
 
 .yui-skin-yuiapp #hd .yui-g li { float:left; display:inline; }
 .yui-skin-yuiapp #hd .yui-g li a { display:block; text-decoration:none; }
@@ -30,38 +26,47 @@
 
 /* *** Body *** */
 
+.yui-skin-yuiapp #bd .yui-g div.teaser p { margin-left: 0.62em; }
 /* Generics */
-.yui-skin-yuiapp #bd ol,
-.yui-skin-yuiapp #bd ul,
-.yui-skin-yuiapp #bd dl { margin-left:1em; margin-bottom:1em; padding-left: 0.5em; }
 
-.yui-skin-yuiapp #bd ol li { list-style:decimal outside; }
-.yui-skin-yuiapp #bd ul li { list-style:disc outside; }
-.yui-skin-yuiapp #bd dl dd { margin-left:1em; }
+/* Lists */
+.yui-skin-yuiapp #bd .yui-g ol,
+.yui-skin-yuiapp #bd .yui-g ul,
+.yui-skin-yuiapp #bd .yui-g dl { margin-left:2em; margin-bottom:1em; padding-left:0.5em; }
 
-.yui-skin-yuiapp #bd { padding:1.5em; }
-.yui-skin-yuiapp #bd h1 { color:#f00; font-weight: bold; font-size: 167% }  /* This style serves purely as a warning - if you see it in the page, remove the tag!  Only one h1 allowed in page! */
-.yui-skin-yuiapp #bd h2 { font-size:153.9%; margin-bottom:0.5em; }
-.yui-skin-yuiapp #bd h3 { font-size:100%; padding:0.7em 1em; border-width: 0 0 5px; border-style: solid; }
-.yui-skin-yuiapp #bd h4 { font-size:146.5%; margin-bottom:0.5em; }
-.yui-skin-yuiapp #bd h5 { font-size:138.5%; margin-bottom:0.5em; }
+.yui-skin-yuiapp #bd .yui-g ol { margin-left:2.2em; padding-left: 1.2em; }
+.yui-skin-yuiapp #bd .yui-g ul { margin-left:2.2em; padding-left: 0.8em; }
+
+
+.yui-skin-yuiapp #bd .yui-g ol li { list-style:decimal outside; }
+.yui-skin-yuiapp #bd .yui-g ul li { list-style:disc outside; padding-left:0.4em}
+.yui-skin-yuiapp #bd .yui-g dl dd { margin-left:1em; }
+
+.yui-skin-yuiapp #bd { padding:1.5em 1em; }
+.yui-skin-yuiapp #bd .yui-g h1 { font-size: 167%; color:#f00; font-weight: bold;  margin:1em 1%; }  /* This style serves purely as a warning - if you see it in the page, remove the tag!  Only one h1 allowed in page! */
+.yui-skin-yuiapp #bd .yui-g h2 { font-size:153.9%; margin: 0 0 0.4em 0.4em; }
+.yui-skin-yuiapp #bd .yui-g h3 { font-size:100%; border-width: 0 0 5px; border-style: solid; padding:0.7em 0.9em; margin:0 0.5em; }  /* Coloured block headings */
+.yui-skin-yuiapp #bd .yui-g h4 { font-size:146.5%; margin:0.6em 1em; }
+.yui-skin-yuiapp #bd .yui-g h5 { font-size:123.1%; margin:0.6em 1.2em; }
 
 
 /* Basic block */
-.yui-skin-yuiapp #bd .yui-g { padding:1em; }
+.yui-skin-yuiapp #bd .yui-g p { margin:1em 1.5em; }
+
 
 /* Extend block with tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs { padding:0; border-width:0 0 5px; border-style:solid; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul { height:1%; margin: 0; padding:0 }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li { float:left; list-style: none outside;}
-.yui-skin-yuiapp #bd .yui-g.tabs ul li a { display:block; text-decoration:none; padding:0.5em 1em; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li.active a { text-decoration:none; }
-.yui-skin-yuiapp #bd .yui-g.tabs h2, 
-.yui-skin-yuiapp #bd .yui-g.tabs h3 { position:absolute; margin-left:-5000px; } /* Hidden SEO Header if needed */
+.yui-skin-yuiapp #bd .yui-g div.tabs { padding:0; border-width:0 0 5px; border-style:solid; overflow: hidden }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul { height:1%; margin: 0; padding:0 }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li { float:left; list-style: none outside; padding-left: 0; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li a { display:block; text-decoration:none; padding:0.5em 1em; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li.active a { text-decoration:none; }
+.yui-skin-yuiapp #bd .yui-g div.tabs h2 { position:absolute; margin-left:-5000px; } /* Hidden SEO Header if needed */
+.yui-skin-yuiapp #bd .yui-g div.tabs ul { }
+
 
 /* Extend tab block with spaced tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs.spaces { background-color:transparent; }
-.yui-skin-yuiapp #bd .yui-g.tabs.spaces ul li { margin-right:0.1em; }
+.yui-skin-yuiapp #bd .yui-g div.tabs.spaces { background-color:transparent; }
+.yui-skin-yuiapp #bd .yui-g div.tabs.spaces ul li { margin-right:0.1em; }
 
 /* Extend block and header to have rounded corners */
 .yui-skin-yuiapp.rounded #hd .yui-g,
@@ -81,7 +86,7 @@
 .yui-skin-yuiapp #bd .yui-g hr { height:1px; border:0; }
 
 /* Tables */
-.yui-skin-yuiapp #bd .yui-g table { width:100%; margin-bottom:2em; }
+.yui-skin-yuiapp #bd .yui-g table { width:98%; margin:0 0 1em 1em; }
 .yui-skin-yuiapp #bd .yui-g table td { padding:0.5em; }
 .yui-skin-yuiapp #bd .yui-g table thead { font-weight:bold; }
 .yui-skin-yuiapp #bd .yui-g table thead a { text-decoration:none; }
@@ -89,7 +94,7 @@
 .yui-skin-yuiapp #bd .yui-g table tbody a { text-decoration:underline; }
 
 /* Pager control*/
-.yui-skin-yuiapp #bd .yui-g ul.pager { text-align:right; }
+.yui-skin-yuiapp #bd .yui-g ul.pager { text-align:right; padding-right:0.5em; }
 .yui-skin-yuiapp #bd .yui-g ul.pager li { display:inline; }
 .yui-skin-yuiapp #bd .yui-g ul.pager li a { padding:0.1em 0.3em; margin-right:0.3em; border-width:1px; border-style:solid; text-decoration:none; }
 
@@ -99,16 +104,19 @@
 .yui-skin-yuiapp #bd form .yui-g label { font-weight:bold; }
 .yui-skin-yuiapp #bd form .yui-g label span { font-weight:normal; font-size:85%; }
 .yui-skin-yuiapp #bd form .yui-g span.info { font-style:italic; font-size:85%; }
-.yui-skin-yuiapp #bd form .yui-g .text { display:block; width:99%; border-width:1px; border-style:solid; padding:0.3em; }
+.yui-skin-yuiapp #bd form .yui-g textarea.text,
+.yui-skin-yuiapp #bd form .yui-g input.text { display:block; width:100%; border-width:1px; border-style:solid; padding:0.3em; }
+
 
 /* Messages */
-.yui-skin-yuiapp #bd .yui-g .alert { padding:0.5em; text-align:center; }
-.yui-skin-yuiapp #bd .yui-g .error { border:2px solid #fbb; }
-.yui-skin-yuiapp #bd .yui-g .warning { border:2px solid #fffaaa; }
-.yui-skin-yuiapp #bd .yui-g .notice { border:2px solid #1fdf00; }
+.yui-skin-yuiapp #bd .yui-g p.alert { padding:0.5em; text-align:center; }
+.yui-skin-yuiapp #bd .yui-g p.error { border-width:2px; border-style: solid; }
+.yui-skin-yuiapp #bd .yui-g p.warning { border-width:2px; border-style:solid; }
+.yui-skin-yuiapp #bd .yui-g p.notice { border-width:2px; border-style:solid; }
 
-/* Lists */
-.yui-skin-yuiapp #bd #sidebar ul { margin-bottom:1em; padding-left: 0; }
+/* Sidebar */
+.yui-skin-yuiapp #bd #sidebar p { margin:1em 1em; }
+.yui-skin-yuiapp #bd #sidebar ul { margin:0 0 1em 2.2em; padding-left: 0; }
 .yui-skin-yuiapp #bd #sidebar ul li { margin-top:-1px; border-style:solid; border-width:1px 0 1px 0; }
 .yui-skin-yuiapp #bd #sidebar ul li a { display:block; padding:0.5em 0; text-decoration:none; }
 .yui-skin-yuiapp #bd #sidebar ul li a:hover { text-decoration:underline; }
@@ -133,7 +141,6 @@
 .yui-skin-yuiapp abbr,
 .yui-skin-yuiapp acronym { border-color: #000; }
 
-/* Make the page full bleed */
 html, 
 body.yui-skin-yuiapp { background-color:#fff; color:#222; }
 
@@ -145,20 +152,20 @@ body.yui-skin-yuiapp { background-color:#fff; color:#222; }
 .yui-skin-yuiapp #hd .yui-g .yui-u.first li.active a { background-color:#fff; color:#000; }
 
 /* Generics */
-.yui-skin-yuiapp #bd h2 { } /* Set font color using html element above */
-.yui-skin-yuiapp #bd h3 { background-color:#A0C2DE; border-color:#064780; color: #fff } 
+.yui-skin-yuiapp #bd h2 { } /* First attempt to set font color using html element above,,to influence this element */
+.yui-skin-yuiapp #bd h3 { background-color:#A0C2DE; border-color:#064780; color: #222 } 
 .yui-skin-yuiapp #bd h4 { color: #967E59; }
 .yui-skin-yuiapp #bd h5 { color: #967E59; }
 .yui-skin-yuiapp #bd .yui-g { background-color:#fff; color: #333; }
 
 /* Extend block with tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs { background-color: #064780; border-color:#A0C2DE; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li a { color:#fff; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li a:hover { color: #333333; background-color:#CDEFFF; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li.active a { background-color:#A0C2DE !important; color:#333333; } /* important! fixes IE cascade issue */
+.yui-skin-yuiapp #bd .yui-g div.tabs { background-color: #064780; border-color:#A0C2DE; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li a { color:#fff; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li a:hover { color: #333333; background-color:#CDEFFF; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li.active a { background-color:#A0C2DE !important; color:#333333; } /* important! fixes IE cascade issue */
 
 /* Extend tab block with spaced tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs.spaces ul li { background-color:#064780; }
+.yui-skin-yuiapp #bd .yui-g div.tabs.spaces ul li { background-color:#064780; }
 
 /* Style the horizontal rules inside .block */
 .yui-skin-yuiapp #bd .yui-g hr { background-color:#967E59; }
@@ -175,13 +182,13 @@ body.yui-skin-yuiapp { background-color:#fff; color:#222; }
 
 /* Forms */
 .yui-skin-yuiapp #bd form .yui-g label span { color:#f00; }
-.yui-skin-yuiapp #bd form .yui-g span.info { color:#ccc; }
+.yui-skin-yuiapp #bd form .yui-g span.info { color:#888; }
 .yui-skin-yuiapp #bd form .yui-g .text { border-color:#aaa; }
 
 /* Messages */
-.yui-skin-yuiapp #bd .yui-g .error { background-color:#fdd; }
-.yui-skin-yuiapp #bd .yui-g .warning { background-color:#ffc; }
-.yui-skin-yuiapp #bd .yui-g .notice { background-color:#bbffb6; }
+.yui-skin-yuiapp #bd .yui-g .error { background-color:#fdd; border-color:#fbb; }
+.yui-skin-yuiapp #bd .yui-g .warning { background-color:#ffc; border-color:#fffaaa; }
+.yui-skin-yuiapp #bd .yui-g .notice { background-color:#bbffb6; border-color:#1fdf00; }
 
 /* Lists */
 .yui-skin-yuiapp #bd #sidebar ul li a { color:#000; }
