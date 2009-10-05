@@ -72,9 +72,9 @@
 .yui-skin-yuiapp.rounded #hd .yui-g,
 .yui-skin-yuiapp.rounded #hd .yui-g ul li,
 .yui-skin-yuiapp.rounded #hd .yui-g ul li a,
-.yui-skin-yuiapp.rounded #bd .yui-g.tabs,
-.yui-skin-yuiapp.rounded #bd .yui-g.tabs ul li,
-.yui-skin-yuiapp.rounded #bd .yui-g.tabs ul li a,
+.yui-skin-yuiapp.rounded #bd .yui-g div.tabs,
+.yui-skin-yuiapp.rounded #bd .yui-g div.tabs ul li,
+.yui-skin-yuiapp.rounded #bd .yui-g div.tabs ul li a,
 .yui-skin-yuiapp.rounded #bd h3 {
     -moz-border-radius-topright:7px;
     -moz-border-radius-topleft:7px;
@@ -142,7 +142,7 @@
 .yui-skin-yuiapp acronym { border-color: #000; }
 
 html, 
-body.yui-skin-yuiapp { background-color:#fff; color:#222; }
+body.yui-skin-yuiapp { background-color:#fff; color:#262626; }
 
 /* *** Header *** */
 .yui-skin-yuiapp #hd { background-color:#967E59; }
@@ -153,7 +153,7 @@ body.yui-skin-yuiapp { background-color:#fff; color:#222; }
 
 /* Generics */
 .yui-skin-yuiapp #bd h2 { } /* First attempt to set font color using html element above,,to influence this element */
-.yui-skin-yuiapp #bd h3 { background-color:#A0C2DE; border-color:#064780; color: #222 } 
+.yui-skin-yuiapp #bd h3 { background-color:#A0C2DE; border-color:#064780; color: #262626 } 
 .yui-skin-yuiapp #bd h4 { color: #967E59; }
 .yui-skin-yuiapp #bd h5 { color: #967E59; }
 .yui-skin-yuiapp #bd .yui-g { background-color:#fff; color: #333; }

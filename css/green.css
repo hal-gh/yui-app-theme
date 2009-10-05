@@ -12,43 +12,43 @@
 
 /* Make the page full bleed */
 html, 
-body.yui-skin-yuiapp { background-color:#F0F0EE; color:#222; }
+body.yui-skin-yuiapp { background-color:#F0F0EE; color:#262626; }
 
 /* *** Header *** */
 .yui-skin-yuiapp #hd { background-color:#187A32; }
 .yui-skin-yuiapp #hd h1 { color:#fff; }
-.yui-skin-yuiapp #hd .yui-g { background-color:#000; }
+.yui-skin-yuiapp #hd .yui-g { background-color:#262626; }
 .yui-skin-yuiapp #hd .yui-g li a { color:#fff; }
-.yui-skin-yuiapp #hd .yui-g .yui-u.first li.active a { background-color:#fff; color:#000; }
+.yui-skin-yuiapp #hd .yui-g .yui-u.first li.active a { background-color:#fff; color:#262626; }
 
 /* Generics */
 .yui-skin-yuiapp #bd h2 { } /* Set font color using html element above */
-.yui-skin-yuiapp #bd h3 { background-color:#187A32; border-color:#000; color: #fff} 
+.yui-skin-yuiapp #bd h3 { background-color:#187A32; border-color:#262626; color: #fff} 
 .yui-skin-yuiapp #bd h4 { color: #187A32; }
 .yui-skin-yuiapp #bd h5 { color: #187A32; }
-.yui-skin-yuiapp #bd .yui-g { background-color:#fff; color: #333; }
+.yui-skin-yuiapp #bd .yui-g { background-color:#fff; color: #262626; }
 
 /* Extend block with tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs { background-color: #187A32; border-color:#000; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li a { color:#fff; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li a:hover { color: #333333; background-color:#000; }
-.yui-skin-yuiapp #bd .yui-g.tabs ul li.active a { background-color:#000 !important; color:#fff; } /* important! fixes IE cascade issue */
+.yui-skin-yuiapp #bd .yui-g div.tabs { background-color: #187A32; border-color:#000; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li a { color:#fff; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li a:hover { color: #fff; background-color:#262626; }
+.yui-skin-yuiapp #bd .yui-g div.tabs ul li.active a { background-color:#000 !important; color:#fff; } /* important! fixes IE cascade issue */
 
 /* Extend tab block with spaced tabs */
-.yui-skin-yuiapp #bd .yui-g.tabs.spaces ul li { background-color:#187A32; }
+.yui-skin-yuiapp #bd .yui-g div.tabs.spaces ul li { background-color:#187A32; }
 
 /* Style the horizontal rules inside .block */
 .yui-skin-yuiapp #bd .yui-g hr { background-color:#187A32; }
 
 /* Tables */
-.yui-skin-yuiapp #bd .yui-g table thead { background-color:#000; color:#fff; font-weight:bold; }
+.yui-skin-yuiapp #bd .yui-g table thead { background-color:#262626; color:#fff; font-weight:bold; }
 .yui-skin-yuiapp #bd .yui-g table thead a { color:#fff; }
 
 /* Pager control*/
-.yui-skin-yuiapp #bd .yui-g ul.pager li a { color:#333; border-color:#ccc; }
-.yui-skin-yuiapp #bd .yui-g ul.pager li a:hover { background-color:#000; color:#fff; }
-.yui-skin-yuiapp #bd .yui-g ul.pager li.active a { background-color:#000; color:#fff; }
-.yui-skin-yuiapp #bd .yui-g ul.pager li.active a:hover { background-color:#000; color:#fff; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li a { color:#262626; border-color:#ccc; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li a:hover { background-color:#262626; color:#fff; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li.active a { background-color:#262626; color:#fff; }
+.yui-skin-yuiapp #bd .yui-g ul.pager li.active a:hover { background-color:#262626; color:#fff; }
 
 /* Forms */
 .yui-skin-yuiapp #bd form .yui-g label span { color:#f00; }
